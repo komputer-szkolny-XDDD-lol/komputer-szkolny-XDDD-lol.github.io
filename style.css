@@ -1,0 +1,118 @@
+body {
+    background-color: #aaaaaa;
+}
+
+.playfield {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    height: 100%;
+    text-align: center;
+    width: auto; 
+    color: #aaaaaa;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    transform: translateX(-50%);
+    aspect-ratio: 1;
+    background-color: #ffffff;
+    z-index: -15;
+    overflow: hidden;
+}
+
+.scoretext {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    pointer-events: none;
+    z-index: -10;
+    width: auto;
+    height: 40%;
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    color: #aaaaaa;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 80px;
+}
+
+.scoredisplay {
+    display: block;
+    color: #aaaaaa;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 80px;
+    text-align: center;
+    z-index: -5;
+    pointer-events: none;
+    transform: translateY(-50%);
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: nonel
+}
+
+.combodisplay {
+    display: block;
+    color: #aaaaaa;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 40px;
+    text-align: center;
+    z-index: -5;
+    pointer-events: none;
+    transform: translateY(-50%);
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: nonel
+}
+
+.combotext {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 63vh;
+    pointer-events: none;
+    z-index: -10;
+    width: auto;
+    height: 40%;
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    color: #aaaaaa;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 40px;
+}
+
+
+
+.hitdisplay {
+    display: block;
+    color: #aaaaaa;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 20px;
+    text-align: center;
+    z-index: -5;
+    pointer-events: none;
+    transform: translateY(-50%);
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: nonel
+}
+
+.hittext {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 20vh;
+    pointer-events: none;
+    z-index: -10;
+    width: auto;
+    height: 40%;
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    color: #aaaaaa;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 40px;
+}
+
