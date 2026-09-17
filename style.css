@@ -53,18 +53,19 @@ body {
 .advertisement {
     display: block;
     background-color: #000000;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Comic Sans MS", "Comic Sans", italic;
-    width: 10%;
+    width: 25%;
     height: auto;
     aspect-ratio: 17/4;
     color: #ffffff;
     position: absolute;
     top: 1%;
-    left: 1%;
+    left: 0.35%;
     border-radius: 10%;
     border-width: 5px;
     border-style: dotted;
+    line-height: 4px;
 }
 
 .combodisplay {
