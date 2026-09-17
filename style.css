@@ -50,6 +50,23 @@ body {
     -webkit-user-select: nonel
 }
 
+.advertisement {
+    display: block;
+    background-color: #000000;
+    font-size: 24px;
+    font-family: "Comic Sans MS", "Comic Sans", italic;
+    width: 10%;
+    height: auto;
+    aspect-ratio: 17/4;
+    color: #ffffff;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    border-radius: 10%;
+    border-width: 5px;
+    border-style: dotted;
+}
+
 .combodisplay {
     display: block;
     color: #aaaaaa;
